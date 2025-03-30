@@ -1,14 +1,19 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fundo circular -->
-  <circle cx="100" cy="100" r="90" fill="#0a2463" />
+  <!-- Fundo circular com gradiente para melhorar visibilidade -->
+  <circle cx="100" cy="100" r="90" fill="#051440" stroke="#0a2463" stroke-width="2" />
   
-  <!-- Asa estilizada -->
-  <path d="M50 100 C60 70, 100 50, 150 90 C130 100, 110 105, 90 105 C70 105, 60 100, 50 100 Z" fill="#d4af37" />
-  <path d="M50 100 C60 130, 100 150, 150 110 C130 100, 110 95, 90 95 C70 95, 60 100, 50 100 Z" fill="#d4af37" />
+  <!-- Asa estilizada com contorno e brilho para melhor visibilidade -->
+  <path d="M50 100 C60 70, 100 50, 150 90 C130 100, 110 105, 90 105 C70 105, 60 100, 50 100 Z" fill="#d4af37" stroke="#ffffff" stroke-width="1.5" />
+  <path d="M50 100 C60 130, 100 150, 150 110 C130 100, 110 95, 90 95 C70 95, 60 100, 50 100 Z" fill="#d4af37" stroke="#ffffff" stroke-width="1.5" />
   
-  <!-- Detalhe central -->
-  <circle cx="100" cy="100" r="15" fill="#0a2463" stroke="#d4af37" stroke-width="3" />
+  <!-- Detalhe central com contorno mais destacado -->
+  <circle cx="100" cy="100" r="15" fill="#051440" stroke="#d4af37" stroke-width="4" />
   
-  <!-- Detalhe de brilho -->
+  <!-- Detalhes de brilho para melhorar visibilidade -->
   <circle cx="95" cy="95" r="3" fill="#ffffff" />
+  <circle cx="105" cy="90" r="1.5" fill="#ffffff" />
+  
+  <!-- Reflexo adicional nas asas -->
+  <path d="M70 100 C80 90, 100 85, 120 95" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7" />
+  <path d="M70 100 C80 110, 100 115, 120 105" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7" />
 </svg>
